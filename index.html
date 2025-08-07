@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Página do Aluno - Luis Gustavo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #1976d2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2em;
+    }
+
+    nav {
+      background-color: #1565c0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 16px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #0d47a1;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      width: 300px;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #1976d2;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #e0e0e0;
+      margin-top: 30px;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        width: 90%;
+      }
+
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bem-vindo, Luis Gustavo</h1>
+    <p>Aluno do 1º Ano do Ensino Médio</p>
+  </header>
+
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Boletim</a>
+    <a href="#">Horários</a>
+    <a href="#">Mensagens</a>
+  </nav>
+
+  <section class="container">
+    <div class="card">
+      <h3>Português</h3>
+      <p>Gramática, interpretação de texto e produção textual.</p>
+    </div>
+    <div class="card">
+      <h3>Literatura</h3>
+      <p>Estudo de autores, obras e movimentos literários.</p>
+    </div>
+    <div class="card">
+      <h3>Redação</h3>
+      <p>Prática de escrita argumentativa, dissertativa e criativa.</p>
+    </div>
+    <div class="card">
+      <h3>Matemática</h3>
+      <p>Álgebra, geometria, estatística e lógica.</p>
+    </div>
+    <div class="card">
+      <h3>Física</h3>
+      <p>Estudo das leis do movimento, força e energia.</p>
+    </div>
+    <div class="card">
+      <h3>Química</h3>
+      <p>Elementos, substâncias, reações e equações químicas.</p>
+    </div>
+    <div class="card">
+      <h3>Biologia</h3>
+      <p>Genética, células, ecologia e evolução.</p>
+    </div>
+    <div class="card">
+      <h3>História</h3>
+      <p>Eventos históricos, civilizações e história do Brasil.</p>
+    </div>
+    <div class="card">
+      <h3>Geografia</h3>
+      <p>Geopolítica, clima, relevo e localização global.</p>
+    </div>
+    <div class="card">
+      <h3>Filosofia</h3>
+      <p>Pensamento crítico e os grandes filósofos.</p>
+    </div>
+    <div class="card">
+      <h3>Sociologia</h3>
+      <p>Estudo das sociedades e comportamentos humanos.</p>
+    </div>
+    <div class="card">
+      <h3>Educação Física</h3>
+      <p>Atividades físicas, saúde e bem-estar.</p>
+    </div>
+    <div class="card">
+      <h3>Inglês</h3>
+      <p>Vocabulário, gramática e conversação.</p>
+    </div>
+    <div class="card">
+      <h3>Artes</h3>
+      <p>Expressão artística, música, desenho e teatro.</p>
+    </div>
+    <div class="card">
+      <h3>Projeto de Vida</h3>
+      <p>Autoconhecimento, metas e planejamento pessoal.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Escola de Ensino Médio. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
